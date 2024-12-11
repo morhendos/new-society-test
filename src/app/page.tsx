@@ -1,11 +1,11 @@
 "use client";
 
 import React from 'react';
-import { BadgeCheck, Calendar, Award } from 'lucide-react';
+import { BadgeCheck, Calendar, Award, Swords } from 'lucide-react';
 
 const AnimatedBackground = () => (
   <div className="fixed inset-0 -z-10 overflow-hidden">
-    <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 animate-gradient">
+    <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20">
       <div className="absolute inset-0 opacity-30">
         {[...Array(50)].map((_, i) => (
           <div
@@ -35,8 +35,8 @@ const HeroSection = () => (
     </div>
     <p className="text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
       Create epic padel leagues with friends. 
-      <span className="block mt-2 text-blue-600 font-medium floating">
-        Game on! 🏓
+      <span className="block mt-2 text-blue-600 font-medium floating inline-flex items-center justify-center gap-2">
+        Game on! <Swords className="inline-block h-6 w-6 rotate-45" />
       </span>
     </p>
     <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full" />
