@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'New Society',
-  description: 'Building a better future together',
+  title: 'Amigos Liga - Padel Leagues Made Easy',
+  description: 'Create and manage padel leagues with your friends - the easy way',
 }
 
 export default function RootLayout({
